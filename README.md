@@ -13,15 +13,15 @@ windowAlert
  4 @param {container} 弹窗窗口最外层容器。
  
  5 默认配置参数如下：{
-	 closed: '.closed', //关闭按钮
-	 bgColor: '#000',   //默认颜色
-	 opacity: '0.5',    // 默认透明度
+	 closed: '.closed', //关闭按钮。
+	 bgColor: '#000',   //默认颜色。
+	 opacity: '0.5',    // 默认透明度。
 	 position: {
-		x: 0, //默认情况下居中 
+		x: 0, //默认情况下居中 。
 		y: 0
 	 },
-	 isScroll: true, //默认情况下 窗口随着滚动而滚动 
-	 isResize: true  // 默认情况下 随着窗口缩放而缩放
+	 isScroll: true, //默认情况下 窗口随着滚动而滚动 。
+	 isResize: true  // 默认情况下 随着窗口缩放而缩放。
  }
  
  6 @callback 回调函数  
