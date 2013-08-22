@@ -28,10 +28,15 @@ windowAlert
  
  
  var WindowAlert = (function(){
+ 
 	function WindowAlert(clickElem,container,config,callback){
+	
 		var self = this,
+		
 			isIE6 = navigator.userAgent.match(/MSIE 6.0/)!= null;
+			
 		self.isIE6 = isIE6;
+		
 		if(!(self instanceof WindowAlert)){
 			return new WindowAlert(clickElem,container,config,callback);
 		}
