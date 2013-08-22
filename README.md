@@ -201,18 +201,6 @@ windowAlert
 	
 })();
 
-
-HTML代码如下： 
-
-  <div class="alert" shopId = "18620443988">点击我弹窗1</div>
-  
-  <div class="alert" shopId = "18620443988">点击我弹窗2</div>
-  
-  <div style="height:1000px;"></div>
-  
-  <div class="windowAlert hidden"></div>
-  
-  <div id="window1"></div>
   
  JS调用如下：
  
