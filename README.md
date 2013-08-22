@@ -4,10 +4,14 @@ windowAlert
                                           jquery弹窗组件
 
 
- 1 fileoverview WindowAlert
- 2 @desc jQuery弹窗组件
- 3 @param {clickElem} 点击元素
- 4 @param {container} 弹窗窗口最外层容器
+ 1 fileoverview WindowAlert。
+ 
+ 2 @desc jQuery弹窗组件。
+ 
+ 3 @param {clickElem} 点击元素。
+ 
+ 4 @param {container} 弹窗窗口最外层容器。
+ 
  5 默认配置参数如下：{
 	 closed: '.closed', //关闭按钮
 	 bgColor: '#000',   //默认颜色
@@ -19,6 +23,7 @@ windowAlert
 	 isScroll: true, //默认情况下 窗口随着滚动而滚动 
 	 isResize: true  // 默认情况下 随着窗口缩放而缩放
  }
+ 
  6 @callback 回调函数  
  
  
